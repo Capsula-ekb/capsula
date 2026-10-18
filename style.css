@@ -449,18 +449,29 @@ h1 em {
 
 @media (max-width: 700px) {
   .behind-capsula {
-    grid-template-columns: 1fr;
-    gap: 28px;
-    margin: 58px 0;
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    margin: 48px 0 !important;
   }
 
   .behind-photo {
-    max-width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .behind-photo img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
     aspect-ratio: 4 / 5;
-    object-position: center 35%;
+    object-fit: cover;
+    object-position: center 30%;
+  }
+
+  .behind-copy {
+    width: 100% !important;
   }
 
   .behind-copy h2 {
@@ -469,5 +480,6 @@ h1 em {
 
   .behind-copy > p:not(.behind-label):not(.behind-signature) {
     font-size: 14px;
+    line-height: 1.8;
   }
 }
