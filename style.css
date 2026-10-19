@@ -422,15 +422,15 @@ h1 em {
   font-family: 'DM Sans', sans-serif;
   font-size: clamp(30px, 4vw, 52px);
   line-height: 0.95;
-  letter-spacing: -0.02em;
-  font-weight: 400;
+  letter-spacing: -0.03em;
+  font-weight: 700;
   margin: 0 0 28px;
 }
 
 .behind-copy h2 span {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  letter-spacing: 0;
+  letter-spacing: -0.03em;
   color: #eee5dc;
 }
 
