@@ -422,7 +422,7 @@ h1 em {
   font-family: 'Playfair Display', serif;
   font-size: clamp(30px, 4vw, 52px);
   line-height: 0.95;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   font-weight: 400;
   margin: 0 0 28px;
 }
