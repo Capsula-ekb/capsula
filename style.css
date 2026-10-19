@@ -419,7 +419,7 @@ h1 em {
 }
 
 .behind-copy h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: clamp(30px, 4vw, 52px);
   line-height: 0.95;
   letter-spacing: -0.02em;
