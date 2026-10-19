@@ -426,6 +426,17 @@ h1 em {
   font-weight: 400;
   margin: 0 0 28px;
 }
+.behind-copy h2 span {
+  font-family: 'Playfair Display', serif;
+  color: #eee5dc;
+}
+
+.behind-copy h2 em {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #c7a989;
+}
 
 .behind-copy h3 {
   font-size: clamp(19px, 2vw, 25px);
