@@ -434,6 +434,13 @@ h1 em {
   color: #eee5dc;
 }
 
+.behind-copy h2 em {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+  color: #c7a989;
+}
+
 .behind-copy h3 {
   font-size: clamp(19px, 2vw, 25px);
   font-weight: 400;
