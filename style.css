@@ -433,7 +433,7 @@ h1 em {
 
 .behind-copy h2 em {
   font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-style: italic !important;
   font-weight: 500;
   color: #c7a989;
 }
