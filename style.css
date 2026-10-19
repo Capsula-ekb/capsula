@@ -431,11 +431,9 @@ h1 em {
   color: #eee5dc;
 }
 
-.behind-copy h2 em {
-  font-family: 'Playfair Display', serif;
-  font-style: italic !important;
-  font-weight: 500;
-  color: #c7a989;
+.behind-copy h2 span {
+  font-family: inherit;
+  color: #eee5dc;
 }
 
 .behind-copy h3 {
